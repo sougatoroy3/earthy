@@ -25,6 +25,7 @@ If the number is divisible by
 
 N=int(input())
 A=list(map(int,input().strip().split()))[:N]
+#A = [int(x) for x in input().split()]
 
 '''for i in range(0, N):
     elements=int(input())
